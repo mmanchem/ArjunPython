@@ -1,0 +1,14 @@
+I have this code that returns a list of list, I would like to return only one list efficiently, how can I achieve that?
+
+def GetCast(path,key,Ids):
+    list=[]
+    for n in Ids:
+        l=requests.get(path + str(n) + '/credits',key )
+        data= l.json()
+        cast_Ids= [i['name'] for i in data['cast']]
+        list.append(cast_Ids)
+    return list
+    
+    Solution 
+    
+    Instead of append use list extend function to add items to list
