@@ -18,3 +18,25 @@ input_str='UUUUDDDDUUUDDDUUUDDUUUUUD'
 n=int(len(input_str))
 d=re.findall('[U]{0,25}',input_str)
 print(d.len())
+
+fINAL :
+
+import re
+
+print("ENTER EITHER U OR D as string ")
+
+input_str=input()
+
+n=int(len(input_str))
+
+c=len(re.findall('[^U|D]',input_str))
+
+if c==0 :
+  d=re.findall('[D]{1,3000}',input_str)
+  u=re.findall('[U]{1,3000}',input_str)
+  if len(d)>len(u):
+    print("minimum count U",len(u))
+  else:
+    print("minimum count D ",len(d))
+else:
+  print("String Contains other than U or D :",input_str)
