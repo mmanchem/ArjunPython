@@ -1,4 +1,20 @@
 URL: https://www.codechef.com/problems/ADACRA
 
 Python Code:
+import re
+input_str='UUUUDDDDUUUDDDUUUDDUUUUUD'
+n=int(len(input_str))
+d=re.findall('[U]{0,25}+',input_str)
+u=re.findall('[D]{0,25}',input_str)
+print(d)
+print(n)
+print(u)
 
+print(type(n))
+
+
+import re
+input_str='UUUUDDDDUUUDDDUUUDDUUUUUD'
+n=int(len(input_str))
+d=re.findall('[U]{0,25}',input_str)
+print(d.len())
