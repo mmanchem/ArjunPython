@@ -2,7 +2,20 @@ import pandas as pd
 import numpy as np
 #reading CSV data and load into pandas df
 df=pd.read_csv("E:\ML_ASSIGNMENT\House_Price.csv")
-#to check any coulmns in a row has null value
+df.columns
+#to check any coulmn in a row has null value
 df.isnull().any()
+#transforming the date colmn 
+df['date']=pd.to_datetime(df.date.str.slice(0,8))
+df.info()
+df.shape
+
 #simple EDA using python describe menthod to check any anomolies
-df.drop(['id','price'], axis=1).describe()
+df.drop(['id'], axis=1).describe()
+
+#sort the data based on Transaction date
+df.sort_values(by='date', ascending=True,inplace=True)
+df[df.bedrooms>=33]
+df.drop(df[df.bedrooms>=33].index,axis=0,inplace=True)
+df.shape
+df.drop(['id'], axis=1).describe()
