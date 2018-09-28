@@ -48,7 +48,7 @@ Topics:
      bool--bool holds two values True or False intrernally it is represented by 1 and 0 respectively 
      complex--> (a+bj) where b is imaginary part and a is real part
      tuple --> tuple is a collection data structures which holds more than one value of same or differnet data type
-               a tuple can have 
+               a tuple can have  
      set
      mutable (we can alter values in this data  stucture during program excution )
      ----------
