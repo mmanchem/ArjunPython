@@ -6,7 +6,7 @@ Topics:
 2)  difference between 2.x and 3.x
 3)  Python  data Types 
 4)  condtional statments 
-5)  loop statements
+5)  loop statements (for,while,continue,break)
 6)  File handling 
 7)  File formats (JSON,CSV,EXCEL etc)
 8)  exceptions handling
@@ -22,7 +22,8 @@ Topics:
 18) Comprehensions 
 19) Iterators 
 20) Generators 
-
+21) Enumeration 
+22)
 
 
 
