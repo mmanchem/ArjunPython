@@ -28,6 +28,9 @@ Topics:
 24) Assertion 
 25) getters and setters
 26) Debugging 
+27) Shallow copy and Deep Copy
+28) Name Space ,Variable and scope of variables
+29) Keywords in Python
 
 1) Python Features 
   type inference --> no neeed to define object data type like int ,float it will automatically inference data type
