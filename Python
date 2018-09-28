@@ -16,3 +16,13 @@ Topics:
 12)Pandas
 13)Numpy
 14)Scipy/Sckit learn
+15)Operaters 
+
+
+
+
+1) Python Features 
+  type inference --> no neeed to define object data type like int ,float it will automatically inference data type
+  code once run any where --> we can execute .py extension file anywhere like linuix,windows,mac etc after it is successfully executed 
+  embedded --> we can embedded python code any C or java 
+  extensable ---> we can include other languages in Python 
