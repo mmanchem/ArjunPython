@@ -1,6 +1,5 @@
 
-                                            Core Python 3.x and Advanced Python (Pandas ,Numpy ,skit learn etc)
-  
+                                    Core Python 3.x and Advanced Python (Pandas ,Numpy ,skit learn etc)
 Topics: 
 1)  Python Features 
 2)  difference between 2.x and 3.x
@@ -16,10 +15,10 @@ Topics:
 12) Pandas
 13) Numpy
 14) Scipy/Sckit learn
-15) Operaters 
+15) Operaters
 16) Data slicing
 17) String represenation (single quotes,double quotes and triple quotes)
-18) Comprehensions 
+18) Comprehensions
 19) Iterators 
 20) Generators 
 21) Enumeration 
@@ -31,21 +30,22 @@ Topics:
 27) Shallow copy and Deep Copy
 28) Name Space ,Variable and scope of variables
 29) Keywords in Python
+30) Comments in Python 
 
+######################################################################################################################################
 1) Python Features 
-  type inference --> no neeed to define object data type like int ,float it will automatically inference data type
-  code once run any where --> we can execute .py extension file anywhere like linuix,windows,mac etc after it is successfully executed 
-  embedded --> we can embedded python code any C or java 
-  extensable ---> we can include other languages in Python 
-  in python everything is an object
-  
- 2) difference between 2.x and 3.x
-   print is now function in 3.x
-   we dont have data type long in 3.x
-   we have only input method to read standard i/o from keyboard it is input() 
-   
-   
-  3) Python  data Types 
+    type inference --> no neeed to define object data type like int ,float it will automatically inference data type
+    code once run any where --> we can execute .py extension file anywhere like linuix,windows,mac etc after it is successfully executed 
+    embedded --> we can embedded python code any C or java 
+    extensable ---> we can include other languages in Python 
+    in python everything is an object
+######################################################################################################################################
+2) difference between 2.x and 3.x
+    print is now function in 3.x
+    we dont have data type long in 3.x
+    we have only input method to read standard i/o from keyboard it is input() 
+######################################################################################################################################  
+3) Python  data Types 
      core python has many data types which are mutable and immutable type
      immutable (once defined can not  be modified it values during program execution)
      int --> example :- 1,-1, 56 etc. there is no limit for int data type in python 3.x
@@ -68,4 +68,4 @@ Topics:
                      key is should be unique in a dictionary
      boolarry-->     it is a 256 byte array 
  
- 
+ ######################################################################################################################################
