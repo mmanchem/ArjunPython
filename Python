@@ -45,20 +45,20 @@ Topics:
      float --> real floating values like 0.344,9.89 etc
      string --> string data type which are enclose in quotes ('HI', "HI",'''HI''')
      character -->
-     bool--bool holds two values True or False intrernally it is represented by 1 and 0 respectively 
-     complex--> (a+bj) where b is imaginary part and a is real part
-     tuple --> tuple is a collection data structures which holds more than one value of same or differnet data type
-               a tuple can have  any core python data type as its value like list,dict,tuple ,str ,sets etc..
-     set --> set is also a collection data structure and holds only unique values and un order data set 
-             set is replica of mathematical set operation hence it works like maths set functions
-             syntax a={1,3,4,5} ,to create empty set use in build function set constructer 
-             se
+     bool--       bool holds two values True or False intrernally it is represented by 1 and 0 respectively 
+     complex-->   (a+bj) where b is imaginary part and a is real part
+     tuple -->    tuple is a collection data structures which holds more than one value of same or differnet data type
+                  a tuple can have  any core python data type as its value like list,dict,tuple ,str ,sets etc..
+     set -->       set is also a collection data structure and holds only unique values and un order data set 
+                   set is replica of mathematical set operation hence it works like maths set functions
+                   syntax a={1,3,4,5} ,to create empty set use in build function set constructer 
+                   x=set()
      mutable (we can alter values in this data  stucture during program excution )
      ----------
-     list  --> list is collection data type which holds multiple data types of any core python data structure 
-              l=[1,2,3,[888],(1,2),'hi']
-     dictionary  --> dictionary is a key : value base data structure of un order set 
-                     key is should be unique in dictionary 
-     boolarry
+     list -->        list is collection data type which holds multiple data types of any core python data structure 
+                     l=[1,2,3,[888],(1,2),'hi']
+     dictionary-->   dictionary is a key : value base data structure of unorder set 
+                     key is should be unique in a dictionary
+     boolarry-->     it is a 256 byte array 
  
  
