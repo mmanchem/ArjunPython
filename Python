@@ -1,5 +1,5 @@
 
-                                            Core Python 3.x
+                                            Core Python 3.x and Advanced Python (Pandas ,Numpy ,skit learn etc)
   
 Topics: 
 1)  Python Features 
@@ -23,15 +23,18 @@ Topics:
 19) Iterators 
 20) Generators 
 21) Enumeration 
-22)
-
-
+22) In build models ( string ,date ,time etc)
+23) garbage collection and memory management in python
+24) Assertion 
+25) getters and setters
+26) Debugging 
 
 1) Python Features 
   type inference --> no neeed to define object data type like int ,float it will automatically inference data type
   code once run any where --> we can execute .py extension file anywhere like linuix,windows,mac etc after it is successfully executed 
   embedded --> we can embedded python code any C or java 
   extensable ---> we can include other languages in Python 
+  in python everything is an object
   
  2) difference between 2.x and 3.x
    print is now function in 3.x
@@ -54,7 +57,7 @@ Topics:
                    set is replica of mathematical set operation hence it works like maths set functions
                    syntax a={1,3,4,5} ,to create empty set use in build function set constructer 
                    x=set()
-     mutable      (we can alter values in this data  stucture during program execution )
+     mutable       (we can alter values in this data  stucture during program execution )
      ----------
      list -->        list is collection data type which holds multiple data types of any core python data structure 
                      l=[1,2,3,[888],(1,2),'hi']
