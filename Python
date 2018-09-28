@@ -8,7 +8,7 @@ Topics:
 4)  condtional statments 
 5)  loop statements
 6)  File handling 
-7)  File formats 
+7)  File formats (JSON,CSV,EXCEL etc)
 8)  exceptions handling
 9)  functions 
 10) Regular expressions 
@@ -18,6 +18,10 @@ Topics:
 14) Scipy/Sckit learn
 15) Operaters 
 16) Data slicing
+17) String represenation (single quotes,double quotes and triple quotes)
+18) Comprehensions 
+19) Iterators 
+20) Generators 
 
 
 
@@ -36,15 +40,18 @@ Topics:
    
   3) Python  data Types 
      core python has many data types which are mutable and immutable type
-     immutable 
-     int
-     float
-     string 
-     bool
-     comples (a+bj) where b is imaginary part and a is real part
-     tuple
+     immutable (once defined can not  be modified it values during program execution)
+     int --> example :- 1,-1, 56 etc. there is no limit for int data type in python 3.x
+     float --> real floating values like 0.344,9.89 etc
+     string --> string data type which are enclose in quotes ('HI', "HI",'''HI''')
+     character -->
+     bool--bool holds two values True or False intrernally it is represented by 1 and 0 respectively 
+     complex--> (a+bj) where b is imaginary part and a is real part
+     tuple --> tuple is a collection data structures which holds more than one value of same or differnet data type
+               a tuple can have 
      set
-     mutable
+     mutable (we can alter values in this data  stucture during program excution )
+     ----------
      list
      dictionary 
      boolarry
