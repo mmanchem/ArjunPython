@@ -1,1 +1,162 @@
 
+Regression 
+
+1)	Simple  linear regression
+Y=b0+b1x1
+
+Y=mx+c
+
+Y=b0+b1x1+e
+e is error
+
+Y is target variable
+
+B0 is interceptor
+X1= independent variable or predictor 
+B1 = coefficient  or slope 
+
+B0 is like , when x axis 0 and and line the line touching  y – axis is called B0
+
+
+
+ 
+
+
+
+
+Try to place the target variable in last column
+
+
+
+Sckit learn has all MLM, DP ,NLP
+
+SciPy is scientific python 
+
+Scikit leran is  developed on top of ScipY
+
+
+
+
+
+import numpy as np
+import matplotlib.pyplot as plt  visualization    
+import pandas as pd
+import scipy as sp
+
+when dealing with regression model we need two matrixs
+
+one x which has independent variable
+
+Y  has target  matrixes
+
+Model is excuted on Train set
+And actual accuuate set
+
+If we are dealing with single independent varai ble
+Always you need to consider   R squared values
+
+
+If we are dealing with multiple independent variable
+Always consider adjusted R square value
+
+Call:
+lm(formula = Salary ~ YearsExperience, data = training_set)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-7990.0 -3434.1     0.1  2614.1 11563.7 
+
+Coefficients:
+                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)      26660.4     2751.8   9.688 1.45e-08 ***
+YearsExperience   9286.0      418.4  22.192 1.59e-14 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 5339 on 18 degrees of freedom
+Multiple R-squared:  0.9647,	Adjusted R-squared:  0.9628 
+F-statistic: 492.5 on 1 and 18 DF,  p-value: 1.589e-14
+
+
+Y=b0+b1x1+b2x2+------+bnxn
+
+
+B0=intercepter
+
+X1,x...Xn
+
+ To run multiple linear regression :
+Distribution :
+
+What is meant  by Normal Distribution
+
+Probability of given set of values are called distribution or Normal distribution
+Which is bell curve or T curve or Gaussian distribution?
+
+Distribution is of 2 types:
+Uniform or discrete uniform distribution 
+Normal 
+Normal distribution contains categorical and continuous distribution
+Regression lines are defined on co efficient or slopes in multiple regression 	
+Co efficient probability values are defined by distribution
+
+
+Example for  uniform distribution is throwimg a dice and getting outputs
+1	1/6
+2	 1/6
+3	1/6
+4	1/6
+5	1/6
+6	1/6
+Normal Distribution:
+
+When we throw 2 dices the probabilities of outcome is example of Normal distribution
+
+Minimum 2 
+2=(1,1)
+
+
+In statically Normal distribution is also called as Z score
+Z –score=X-U(MU)/SIGMAE
+X = Indpenendent variable
+U= mean
+Sigma is standard deviation
+N  ~(distribution)(mu,sigma or(sigma squure which is variance))
+N~(0,1) 0,1 are default values
+Mean =0
+SD=1 
+P –Value
+Probability value varies from range from 0 to 1
+
+
+Techniquues in multiple linear regression 
+
+
+1)	All in
+2)	 Backward elimination
+3)	Forward selection
+4)	Bi directional elimination(95% of people use this)
+5)	Score comparison
+1 ) ALL IN
+    Y=b0+b1x1+b2x2+b3x3
+If we include all indiependenant in LR it is called ALL IN
+
+2)	Back ward Elimination
+                              Y=b0+b1x1+b2x2+b3x3
+After ist iteration                                Y=b0+b1x1+b2x2
+                                 Y=b0+b1x1+b2x2
+        After nd iteration                          Y=b0+b1x1
+
+3)forword
+             Y=b0+b1x1
+             Y=b0+b1x1+b2x2
+               Y=b0+b1x1+b2x2+b3x3
+r
+4)score compariomn
+
+
+Signinficane error
+Standard significant level is 0.05 
+5/100=0.05
+Out of 100 threshold is 5 which means 5 are defect
+Standard significant level in statistics 
