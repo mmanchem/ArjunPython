@@ -17,7 +17,10 @@ Deep Learning concept is based on human neuron working
 it works like human learns from its mistakes and gives us optimized weights 
 
 
+we use 3 algorithams to solve our drawbacks in ML
 
-
+ANN  -- Artificial Neural Network
+CNN  -- Convolutional Neural Network
+RNN  -- Recursive Neural Network
 
 
