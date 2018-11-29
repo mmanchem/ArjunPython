@@ -1,0 +1,46 @@
+Machine Learning is of two types 
+
+1. Supervised Learning
+2. Unsupervised Learning
+
+
+Supervised Learning   : if the target is dependent of independent variables or we can predicat outcome based on input variables
+                         we called it as supervised learning
+                      
+       
+Unsupervised Learning : if we dont know target and we will try to cluster input variable we called it as unsupervised learning
+
+
+Supervised Learning is divided into two parts
+
+1  Regression 
+2  Classfication 
+
+Regression : if the target is continues variable then problem fall under regression bucket
+
+Classfication : if the target has dicrete data or catgeorical data we called it as Classfication
+
+Algorithms we use in Regression are
+
+1 simple linear regression
+
+2 Multiple linear regression
+
+3 Polynomial regression 
+
+Advance Regressions Algorithams
+
+Ridge resgression 
+Lasso regression
+Gradient decent regression 
+
+above alogorithms we exculisvely use for regressions
+
+there are othere regression which we use for both Classfication and regression
+
+
+
+
+
+
+
