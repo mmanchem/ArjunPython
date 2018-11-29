@@ -23,4 +23,66 @@ ANN  -- Artificial Neural Network
 CNN  -- Convolutional Neural Network
 RNN  -- Recursive Neural Network
 
+1.ANN:
+
+ANN uses 3 layer architehture 
+
+input  layer 
+hidden layer 
+output layer
+
+we can apply both regression and classfication problems to ANN 
+
+input layer contains input nodes and number of nodes is always number of indpendent variables
+
+output layer conatins node which are equal to 1 when binary classfication and if we have more than two classficaions 
+
+then nodes number is equal to number of classfications 
+
+hidden layer nodes count=(input nodes+out put nodes)/2 --thumb rules most of the DS follows
+
+we can add any number of hidden layer base on our requirement
+
+
+we use activation functions to activate nodes 
+
+we have activation functions like below
+
+RELU
+Threshold
+Sigmoid
+Hyperbolic Tang
+softmax etc.
+
+we use Keras package on top of Tensforflow or Theano 
+
+cost function do backpropagation to reduce C value(penality)
+
+CNN is extention of ANN which can process unstructred data 
+
+it has below following layers
+
+Convolution Layer --> read the unstructed data by image augumenation in matrix form and then pull pattern from
+ origina data by using feature detector and which converts it to feature map
+
+Pooling  --we use pooling to adjust the image in CNN to get in right position 
+
+Flatting it is used convert matrix data to single list of data ..each feature map is on indpendent data column after flatting 
+
+Fully Connected layers now we connect flatting output to ANN netwrok
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
